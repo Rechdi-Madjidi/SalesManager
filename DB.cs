@@ -47,6 +47,7 @@ namespace SalesManager
         }
         public static void setColorandFont()
         {
+            // this is 
             DataTable dt = GetData("select * from bg_font_Setting");
             if (dt.Rows.Count<1)
             {
